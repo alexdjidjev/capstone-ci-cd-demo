@@ -7,6 +7,12 @@ on:
   pull_request:
     branches:
       - development
+      
+# Add permissions for GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   test:
